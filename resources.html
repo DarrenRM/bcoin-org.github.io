@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bcoin Resources | Learning Bitcoin and Building Apps with Bitcoin</title>
+
+  <!-- Favicons -->
+  <!-- old
+  <link rel="shortcut icon" href="assets/images/bcoin-ico.png">-->
+
+  <!-- generated from http://www.favicon-generator.org/ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icon Fonts -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Plugins -->
+  <link href="assets/css/magnific-popup.css" rel="stylesheet">
+  <link href="assets/css/owl.carousel.css" rel="stylesheet">
+  <link href="assets/css/flexslider.css" rel="stylesheet">
+  <link href="assets/css/animate.min.css" rel="stylesheet">
+
+  <!-- Template core CSS -->
+  <link href="assets/css/vertical.min.css" rel="stylesheet">
+  <link href="assets/css/template.css" rel="stylesheet">
+
+  <!-- Google Analytics Tracking -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-96446060-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+
+  <!-- preloader removed - probably dont need to see the bcoin logo between these pages -->
+
+  <!-- HEADER -->
+  <header class="header js-stick">
+      <div class="container">
+        <!-- YOUR LOGO HERE -->
+        <div class="inner-header">
+          <a class="inner-brand" href="index.html">
+            <img class="brand-light" src="assets/images/logo-light.png" width="100" alt="">
+            <img class="brand-dark" src="assets/images/logo-dark.png" width="100" alt="">
+          </a>
+        </div>
+
+        <!-- OPEN MOBILE MENU -->
+        <div class="main-nav-toggle">
+          <div class="nav-icon-toggle" data-toggle="collapse" data-target="#custom-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </div>
+        </div>
+
+        <!-- WIDGETS MENU -->
+        <div class="inner-header pull-right hide-me">
+          <div class="menu-extras clearfix">
+
+            <!-- SLACK LINK -->
+            <div class="menu-item">
+              <div class="">
+                <a href="slack-signup.html" target="_blank" id="" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Join us on Slack!">
+                  <img src="assets/images/slack_icon.svg" width="18" height="18"/>
+                  <span class=""></span>
+                </a>
+                            </div>
+            </div>
+
+            <!-- STACK EXCHANGE LINK -->
+            <div class="menu-item">
+              <div class="">
+                <a href="https://bitcoin.stackexchange.com/questions/tagged/bcoin" target="_blank" id="" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Questions! Checkout Stack Exchange.">
+                  <img src="assets/images/stack-exchange-icon.svg" width="18" height="18"/>
+                  <span class=""></span>
+                </a>
+                            </div>
+            </div>
+
+            <!-- GITHUB STUFF -->
+            <div class="menu-item">
+              <div class="">
+                <a href="https://github.com/bcoin-org/bcoin" target="_blank" id="" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Visit bcoin on GitHub to see the code!">
+                  <img src="assets/images/github_icon.svg" width="18" height="18"/>
+                  <span class=""></span>
+                </a>
+                            </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="ghbuttons">
+                  <!-- GH BUTTONS OVERFLOW IF DATACOUNT = TRUE -->
+                    <a class="github-button" href="https://github.com/bcoin-org/bcoin" data-icon="octicon-star" data-count-href="/bcoin-org/bcoin/stargazers" data-show-count="false" data-count-aria-label="# stargazers on GitHub" aria-label="Star bcoin-org/bcoin on GitHub">Star</a>
+                    <a class="github-button" href="https://github.com/bcoin-org/bcoin/fork" data-icon="octicon-repo-forked" data-count-href="/bcoin-org/bcoin/network" data-show-count="false" data-count-aria-label="# forks on GitHub" aria-label="Fork bcoin-org/bcoin on GitHub">Fork</a>
+                </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+        <!-- MAIN MENU -->
+        <nav id="custom-collapse" class="main-nav collapse clearfix">
+          <ul class="inner-nav pull-right">
+
+            <!-- HOME -->
+            <li><a href="./index.html">Home</a></li>
+            <!-- END HOME -->
+
+            <!-- FEATURES -->
+            <li><a href="./index.html#features">What is Bcoin</a></li>
+            <!-- END FEATURES -->
+
+            <!-- GUIDES -->
+            <li><a href="guides.html">Guides</a></li>
+            <!-- GUIDES -->
+
+            <!-- API REFERENCE - newer, how to interact once you're setup -->
+            <li><a href="./api-docs/index.html">API Docs</a></li>
+            <!-- END API -->
+
+            <!-- RESOURCES -->
+            <li><a href="resources.html">Resources</a></li>
+            <!-- END RESOURCES -->
+
+            <!-- FULL DOCS - older, full reference
+            <li><a href="http://bcoin.io/docs/index.html">Docs</a></li>-->
+            <!-- END DOCS -->
+
+            <!-- DIVIDER
+            <li><a>&nbsp;</a></li>
+
+            <li><a href="#">All Demos</a></li>-->
+
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+  <!-- END HEADER -->
+
+  <!-- WRAPPER -->
+  <div class="wrapper">
+
+    <!-- PAGE TITLE -->
+    <section class="module-xxs bg-white-dark" data-background="assets/images/bg-header.jpg">
+
+    </section>
+    <!-- END PAGE TITLE -->
+
+    <!-- COMMUNITY RESOURCES PAGE -->
+    <section class="module" style="padding-top:40px !important;">
+      <div class="container">
+
+        <div class="row">
+
+
+          <!-- RESOURCES SUB SECTION (WITH SM-1 GUTTER) -->
+          <div class="col-sm-11 col-sm-offset-1 blog-content post-thumbnail">
+
+
+            <!-- RESOURCES SECTION TITLE -->
+
+            <div class="col-sm-12 guide-section-title montserrat text-uppercase bottom-line3">
+              <div class="res-header">
+              Community Resources
+              <p>These key resources can help ensure Core trolls your work when they realize you beat them to it.</p>
+              </div>  
+            </div>
+            <!-- ITEM -->
+            <div class="col-sm-12 res-item">
+              <a href="https://www.github.com">
+                <div class="res-item-title">
+                  IDE Terminal Environment
+                  <div class="res-loc">Nodar Chkuaselidze<span class="fa fa-github fa-2x res-fa-box"></span><span class="light-purple">https://www.github.com</span></div>
+                </div>
+                <div class="res-desc">
+                  <p>Everyone can be like Satoshi. Satoshi's building to tweeting ratio is infinity. Be like Satoshi and build things.</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- ITEM -->
+            <div class="col-sm-12 res-item">
+              <a href="https://www.github.com">
+                <div class="res-item-title">
+                  Bcoin Boilerplate
+                  <div class="res-loc">Buck Perley<span class="fa fa-github fa-2x res-fa-box"></span><span class="light-purple">https://www.github.com</span></div>
+                </div>
+                <div class="res-desc">
+                  <p>Everyone can be like Satoshi. Satoshi's building to tweeting ratio is infinity. Be like Satoshi and step away from the Twitter.</p>
+                </div>
+              </a>
+            </div>
+
+
+            <!-- GROUPING -->
+            <div class="col-sm-12 res-group-item">
+              <div class="res-group-title">
+                Blockchain Machines
+                <div class="res-loc">Tip Top Tools for Toolboxers</div>
+              </div>
+              <div class="res-desc">
+                <ul>
+                  <li><a>XMUTE</a> - A really cool hack by lukejr that turns your car into a bcoin.</li>
+                  <li><a>Undo</a> - Able to edit the blockchain by using 100% consensus.</li>
+                  <li><a>Floop</a> - Write loops that airdrop free money into everyone's Bitcoin wallets.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- ITEM -->
+            <div class="col-sm-12 res-item">
+              <a href="https://www.github.com">
+                <div class="res-item-title">
+                  Bcache
+                  <div class="res-loc">Github<span class="fa fa-github fa-2x res-fa-box"></span><span class="light-purple">https://www.github.com</span></div>
+                </div>
+                <div class="res-desc">
+                  <p>Everyone can be like Satoshi. Satoshi's building to tweeting ratio is infinity.</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- GROUPING -->
+            <div class="col-sm-12 res-group-item">
+              <div class="res-group-title">
+                Wallet Widgets
+                <div class="res-loc">Wild Wallet Warehouse</div>
+              </div>
+              <div class="res-desc">
+                <ul>
+                  <li><a>XMUTE</a> - A really cool hack by lukejr that turns your car into a bcoin.</li>
+                  <li><a>Undo</a> - Able to edit the blockchain by using 100% consensus.</li>
+                  <li><a>Floop</a> - Write loops that airdrop free money into everyone's Bitcoin wallets.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- FEATURED PROJECTS SECTION TITLE -->
+
+            <div class="col-sm-11 guide-section-title montserrat text-uppercase bottom-line3" id="feat-title">
+              <div class="res-header">
+              Featured Projects
+              <p>An introduction to the very basics of the JavaScript language. Build a foundation of JavaScript syntax and learn how to use values, variables, and files. An introduction to the very basics of the JavaScript language. </p>
+              </div>  
+            </div>
+
+
+
+              <!-- FEATURED PROJECT ITEM -->
+              <div class="col-sm-3 feat-item">
+                <!--<div class="feat-image"></div>-->
+                <div class="feat-placeholder"><div class="fa fa-3x fa-file-image-o"></div></div>
+                <div class="feat-title">Decentraland</div>
+                <div class="feat-desc">An introduction to the very basics of the JavaScript language. Build a foundation of JavaScript syntax and learn how to use values, variables, and files.</div>
+              </div>
+
+              <!-- FEATURED PROJECT ITEM -->
+              <div class="col-sm-3 feat-item">
+                <!--<div class="feat-image"></div>-->
+                <div class="feat-placeholder"><div class="fa fa-3x fa-file-image-o"></div></div>
+                <div class="feat-title">Decentraland</div>
+                <div class="feat-desc">An introduction to the very basics of the JavaScript language. Build a foundation of JavaScript syntax and learn how to use values, variables, and files.</div>
+              </div>
+
+              <!-- FEATURED PROJECT ITEM -->
+              <div class="col-sm-3 feat-item">
+                <!--<div class="feat-image"></div>-->
+                <div class="feat-placeholder"><div class="fa fa-3x fa-file-image-o"></div></div>
+                <div class="feat-title">Decentraland</div>
+                <div class="feat-desc">An introduction to the very basics of the JavaScript language. Build a foundation of JavaScript syntax and learn how to use values, variables, and files.</div>
+              </div>
+
+              <!-- FEATURED PROJECT ITEM -->
+              <div class="col-sm-3 feat-item">
+                <!--<div class="feat-image"></div>-->
+                <div class="feat-placeholder"><div class="fa fa-3x fa-file-image-o"></div></div>
+                <div class="feat-title">Decentraland</div>
+                <div class="feat-desc">An introduction to the very basics of the JavaScript language. Build a foundation of JavaScript syntax and learn how to use values, variables, and files.</div>
+              </div>
+            </div>
+
+
+
+          <!-- END BLOG CONTENT -->
+
+        </div><!-- .row -->
+
+      </div>
+    </section>
+    <!-- END NEW BLOGS -->
+
+        </div><!-- .row -->
+
+      </div>
+    </section>
+    <!-- END BLOGS -->
+
+    <!-- PARALLAX DOCS CTA -->
+    <section class="module bg-white-alfa-30 parallax color-white" data-background="assets/images/bg-header.jpg">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center">
+              <h2 class="montserrat text-uppercase m-b-30">Ready to start building? Read the docs!</h2>
+              <a href="./api-docs/index.html" target="_blank" class="btn btn-lg btn-purple">Documentation</a>
+            </div>
+          </div>
+        </div><!-- .row -->
+
+      </div>
+    </section>
+    <!-- END PARALLAX DOCS CTA -->
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer-minimal">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <ul class="social-icons social-icons-circle text-center m-b-35">
+              <li><a href="https://twitter.com/bcoin"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://github.com/bcoin-org/bcoin"><i class="fa fa-github"></i></a></li>
+
+
+              <li><a href="slack-signup.html" target="_blank"><i class="fa fa-slack"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center m-b-35">
+            <img class="m-b-35 QR-code" src="assets/images/donation_QR.png"/>
+            <p class="m-0"><strong>Bcoin Development Donation Address:</strong><br />3Bi9H1hzCHWJoFEjc4xzVzEMywi35dyvsV</p>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p class="m-0">Copyright <a href="#">bcoin.io, Purse</a>, 2017, All Rights Reserved.</p>
+
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+  </div>
+  <!-- /WRAPPER -->
+
+  <!-- JAVASCRIPT FILES -->
+
+  <script src="assets/js/jquery-2.2.3.min.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/plugins.min.js"></script>
+  <script src="assets/js/stickyfill.min.js"></script>
+  <script src="assets/js/custom.min.js"></script>
+
+    <!-- github button js -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
