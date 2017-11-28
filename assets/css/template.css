@@ -466,6 +466,165 @@ body {
     padding-top:40% !important;
 }
 
+/*
+[Resources Page]
+*/
+
+.res-header{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px;
+    padding-left: 25px;
+}
+
+.res-header p {
+    display: block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: initial;
+}
+
+.res-item {
+    display: block;
+    margin: 15px 0;
+}
+
+@media screen and (max-width:767px) {
+    .res-item {
+        margin-bottom: 40px;
+    }
+}
+
+.res-fa-box {
+    content: "";
+    display: inline-block;
+    /*height: 85px;*/
+    height: 100%;
+    width: 110px;
+    background-color: #ccc;
+    vertical-align: middle;
+    margin-right: 35px;
+}
+
+.res-fa-box .fa {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.res-loc {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #385dc1;
+}
+
+.res-item-title {
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 18px;
+    color: #222;
+    text-transform: initial;
+    vertical-align: middle;
+    margin-right: 30px;
+    padding:15px 0;
+    max-width: 160px;
+}
+
+.res-item-title p {
+    display: block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: initial;
+}
+
+.res-desc {
+    display: inline-block;
+    margin-right: 30px;
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:991px) {
+    .res-desc, .res-button {
+        margin-top: 15px;
+    }
+    .res-desc {
+        max-width: 80%;
+    }
+}
+
+.res-desc p {
+    margin: 0;
+    color: #222;
+}
+
+.res-button {
+    display:inline-block;
+    border:2px solid #654fb7;
+    width: 80px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+
+
+.res-button-text:hover {
+    background-color: #654fb7;
+    color: #fff;
+}
+
+.res-button-text {
+    color: #654fb7;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+#feat-title {
+    margin-top:60px;
+    margin-bottom: 40px;
+}
+.feat-wrap {}
+
+.feat-item {}
+
+.feat-image {
+    /* PUT THUMB HERE */
+    background-color: blue;
+    min-height: 150px;
+}
+
+.feat-placeholder {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ccc;
+    vertical-align: middle;
+}
+    
+.feat-placeholder .fa {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+.feat-title {
+    font-size: 18px;
+    margin: 15px 0 5px 0;
+}
+.feat-desc {    
+    font-size: 14px;
+    margin-bottom: 40px;
+}
 
 /*
 [General Styles]
@@ -715,7 +874,7 @@ hr {
     margin: 15px 0;
 }
 
-.bottom-line, .bottom-line2 {
+.bottom-line, .bottom-line2, .bottom-line3 {
     position: relative;
 }
 
@@ -737,6 +896,28 @@ hr {
     z-index: 1;
     position: relative;
 }
+
+.bottom-line3 {
+    display: inline-block;
+    height: 100%;
+    border-left: 2px solid #385dc1;
+    margin: 25px 30px 25px 0;
+    z-index: 1;
+    position: relative;
+    vertical-align: middle;
+}
+/*
+.bottom-line3:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 35px;
+    border-left: 2px solid #385dc1;
+    margin: 25px 30px 25px 0;
+    z-index: 1;
+    position: relative;
+    vertical-align: middle;
+}*/
 
 .bottom-line:after {
     content: "";
@@ -3842,7 +4023,8 @@ body.off-canvas-cart-open:after {
 
 .module,
 .module-sm,
-.module-xs {
+.module-xs,
+.module-xxs {
     background-color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3853,19 +4035,22 @@ body.off-canvas-cart-open:after {
 
 .module.divider-top,
 .module-sm.divider-top,
-.module-xs.divider-top {
+.module-xs.divider-top,
+.module-xxs.divider-top {
     border-top: 1px solid #eeeeee;
 }
 
 .module.divider-bottom,
 .module-sm.divider-bottom,
-.module-xs.divider-bottom {
+.module-xs.divider-bottom,
+.module-xxs.divider-bottom {
     border-bottom: 1px solid #eeeeee;
 }
 
 .module.parallax,
 .module-sm.parallax,
-.module-xs.parallax {
+.module-xs.parallax,
+.module-xxs.parallax {
     background-color: transparent;
 }
 
@@ -3875,6 +4060,10 @@ body.off-canvas-cart-open:after {
 
 .module-xs {
     padding: 35px 0;
+}
+
+.module-xxs {
+    padding: 10px 0;
 }
 
 .module-header {

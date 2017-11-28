@@ -99,7 +99,7 @@
 		 * Setting background of modules
 		/* ---------------------------------------------- */
 
-		var modules = $('.module-hero, .module, .module-sm, .module-xs, .background-side, .footer');
+		var modules = $('.module-hero, .module, .module-sm, .module-xs, .module-xxs, .background-side, .footer');
 
 		modules.each(function() {
 			if ($(this).attr('data-background')) {
