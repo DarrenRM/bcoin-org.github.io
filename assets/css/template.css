@@ -715,7 +715,7 @@ hr {
     margin: 15px 0;
 }
 
-.bottom-line, .bottom-line2 {
+.bottom-line, .bottom-line2, .bottom-line3 {
     position: relative;
 }
 
@@ -736,6 +736,16 @@ hr {
     margin: 20px auto 25px 0;
     z-index: 1;
     position: relative;
+}
+
+.bottom-line3 {
+    display: inline-block;
+    height: 100%;
+    border-left: 2px solid #385dc1;
+    margin: 25px 30px 25px 0;
+    z-index: 1;
+    position: relative;
+    vertical-align: middle;
 }
 
 .bottom-line:after {
@@ -5212,7 +5222,8 @@ body.off-canvas-cart-open:after {
 }
 
 .post .post-title {
-    font-size: 23px;
+    font-size: 18px;
+    font-weight: 500;
     margin-bottom: 0px;
 }
 @media screen and (max-width:425px) {
@@ -5228,6 +5239,7 @@ body.off-canvas-cart-open:after {
 .post .post-content {
     padding: 30px 0 0 0;
 }
+
 
 .post.format-quote .post-content {
     padding: 30px 25px;
@@ -5248,11 +5260,75 @@ body.off-canvas-cart-open:after {
     margin-bottom: 5px;
 }
 
+.glist-header {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px;
+    padding-left: 25px;
+}
+
+.glist-header p {
+    display: block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: initial;
+}
+
+.glist {
+
+}
+
+.glist .glist-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.glist .glist-title a i {
+    padding-right: 15px;
+}
+
+.glist .glist-content {
+    margin: 30px 0 0 0;
+    padding-left: 15px;
+}
+
+.glist .glist-content p {
+    color: #222;
+}
+
+.glist-content:hover {
+    /*border-left:2px solid #385dc1;*/
+    box-shadow: 2px 0px 0px 0px #385dc1 inset;
+}
+
+.glist-meta {
+    list-style: none;
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.glist-meta > li {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 11px;
+    color: #385dc1;
+    font-weight: 500;
+}
+
+
 .guide-section-title {
     font-size: 20px;
     color: #222222;
     padding-left: 0;
     border-bottom: none !important;
+}
+
+.guide-block {
+    margin-top: 20px;
 }
 
 .guide-block:hover i {
@@ -5266,13 +5342,11 @@ body.off-canvas-cart-open:after {
 }
 
 .os-install {
-    border: 1px solid #333;
+
     padding: 20px 15px 0 15px;
 }
 
-.os-install:hover {
-    border-color: #385dc1;
-}
+
 
 .os-install i {
     color: #555;
@@ -5305,10 +5379,10 @@ body.off-canvas-cart-open:after {
 .post-meta > li {
     display: inline-block;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
+    letter-spacing: 1.5px;
     font-size: 11px;
-    color: #999;
+    color: #385dc1;
+    font-weight: 500;
 }
 
 .post-meta > li + li:before {
